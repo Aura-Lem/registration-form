@@ -1,0 +1,138 @@
+.logo {
+    font-size: 25px;
+    margin-bottom: 110px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    text-align: left;
+}
+
+.form .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.8rem;
+    border: none;
+    border-bottom: 2px solid #ccc6;
+    font-size: 15px;
+}
+
+.form input:focus {
+    outline: 1px solid #ccc;
+}
+
+.form-row button {
+    width: 36%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: #445B41;
+    color: #fff;
+    border-color: #445B41;
+}
+
+.form-row button:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9DB092;
+    border-color: #9DB092;
+}
+
+.terms {
+    margin-top: 5px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #9DB092;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1500px) {
+    .container {
+        padding: 100px 300px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        padding: 100px 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 100px 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .column {
+        height: 750px;
+        width: 100%;
+    }
+    .back {
+        height: 1700px;
+    }
+    .foto {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .column {
+        height: 900px;
+        width: 100%;
+    }
+    .back {
+        height: 1850px;
+    }
+    .foto {
+        width: 100%;
+    }
+    .form-row button {
+        width: 60%; 
+    }
+}

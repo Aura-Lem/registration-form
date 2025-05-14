@@ -1,0 +1,27 @@
+.back {
+    background-color: #9DB092;
+    width: 100%;
+    height: 940px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 100px 250px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background-color: #fff;
+    padding: 50px;
+    height: 740px;
+}
+
+.foto {
+    width: 45%; 
+    height: 740px;  
+}

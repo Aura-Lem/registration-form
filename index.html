@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration-form</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Projekto pavadinimas" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/base/layout.css">
+    <link rel="stylesheet" href="./css/page/registration-form.css">
+
 </head>
+
 <body>
-    
+    <div class="back">
+       <div class="container">
+           <div class="column">
+              <p class="logo">Kaffetørst</p>
+              <h1 class="title">Hello there.</h1>
+              <p class="subtitle">You need an account to continue.</p>
+              <form class="form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input id="full-name" type="text" name="name " value="" placeholder="Full Name" required> 
+                    </div>
+                    <div class="form-group">
+                        <input id="email" type="email" name="email" value="" placeholder="Email" required> 
+                    </div>
+                    <div class="form-group">
+                        <input id="password" type="text" name="password" value="" placeholder="Password" required> 
+                    </div>
+                    <div class="form-group">
+                        <input id="Repeat-password" type="text" name="Repeat password" value="" placeholder="Repeat password" required> 
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button class="button" type="submit">Sign up</button>
+                </div>
+                <p class="terms">By signing up, you agree to the <a href="#">Terms & Conditions</a>.</p>
+              </form>
+           </div>
+           <img class="foto" src="./img/coffe.png" alt="Kavos puodeliai tarp geliu">
+       </div>
+    </div>
 </body>
 </html>
